@@ -3,7 +3,6 @@
 
 This project is a Task Management Application built using Flask, Flask-RESTful, and SQLAlchemy for the backend, and HTML, CSS, and JavaScript for the frontend.
 
-```
 
 ## Getting Started
 
@@ -120,8 +119,6 @@ This script activates the virtual environment and starts the Flask application.
 
 This is the entry point of the application.
 
-
-```
 
 ### Explanation of Scripts
 
