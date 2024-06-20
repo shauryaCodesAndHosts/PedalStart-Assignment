@@ -1,34 +1,3 @@
-### Project Structure
-
-```
-/task_management
-  /static
-    /css
-      style.css
-    /js
-      script.js
-  /templates
-    index.html
-  /application
-    config.py
-    database.py
-    models.py
-    notesControllerAPI.py
-    notesController.py
-    notesModel.py
-  /db_directory
-    database.sqlite3
-  /__pycache__
-  .gitignore
-  local_run.sh
-  local_setup.sh
-  main.py
-  README.md
-  requirements.txt
-```
-
-### README.md
-
 ```markdown
 # Task Management Application
 
@@ -93,7 +62,7 @@ To set up the project locally, follow these steps:
     ./local_run.sh
     ```
 
-The application should now be running on `http://localhost:5000`.
+The application should now be running on `http://localhost:5002`.
 
 ### API Endpoints
 
@@ -170,53 +139,15 @@ The frontend is built using HTML, CSS (Bootstrap), and JavaScript (Axios for API
 
 This script creates a virtual environment and installs the necessary dependencies.
 
-```bash
-#!/bin/bash
-
-# Create virtual environment
-python3 -m venv venv
-
-# Activate virtual environment
-source venv/bin/activate
-
-# Install dependencies
-pip install -r requirements.txt
-```
-
 ### local_run.sh
 
 This script activates the virtual environment and starts the Flask application.
-
-```bash
-#!/bin/bash
-
-# Activate virtual environment
-source venv/bin/activate
-
-# Run the application
-python main.py
-```
 
 ### main.py
 
 This is the entry point of the application.
 
-```python
-from application import create_app
 
-app = create_app()
-
-if __name__ == "__main__":
-    app.run(debug=True)
-```
-
-### Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-### License
-
-This project is licensed under the MIT License.
 ```
 
 ### Explanation of Scripts
