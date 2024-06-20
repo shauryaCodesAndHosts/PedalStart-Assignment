@@ -1,3 +1,34 @@
+### Project Structure
+
+```
+/task_management
+  /static
+    /css
+      style.css
+    /js
+      script.js
+  /templates
+    index.html
+  /application
+    config.py
+    database.py
+    models.py
+    notesControllerAPI.py
+    notesController.py
+    notesModel.py
+  /db_directory
+    database.sqlite3
+  /__pycache__
+  .gitignore
+  local_run.sh
+  local_setup.sh
+  main.py
+  README.md
+  requirements.txt
+```
+
+### README.md
+
 ```markdown
 # Task Management Application
 
