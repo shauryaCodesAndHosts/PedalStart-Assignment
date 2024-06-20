@@ -19,7 +19,7 @@ To set up the project locally, follow these steps:
 
     ```bash
     git clone https://github.com/your-username/task_management.git
-    cd task_management
+    cd PedalStart-Assignment
     ```
 
 2. Run the setup script to create a virtual environment and install dependencies:
