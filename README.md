@@ -1,11 +1,10 @@
-```markdown
+
 # Task Management Application
 
 This project is a Task Management Application built using Flask, Flask-RESTful, and SQLAlchemy for the backend, and HTML, CSS, and JavaScript for the frontend.
 
 ## Project Structure
 
-```
 /task_management
   /static
     /css
